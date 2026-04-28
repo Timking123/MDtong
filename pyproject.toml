@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meeting-converter"
+version = "3.0.0"
+description = "Markdown → DOCX/PDF/HTML 转换工具"
+requires-python = ">=3.10"
+dependencies = [
+    "python-docx>=1.1.0",
+    "anthropic>=0.40.0",
+    "docx2pdf>=0.10",
+    "Pillow>=10.0.0",
+    "lxml>=4.9.0",
+    "tkinterdnd2>=0.4.2",
+    "markdown>=3.5.0",
+    "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+build = ["pyinstaller>=6.0.0"]
+
+[project.scripts]
+meeting-converter = "convert:main"
+
+[tool.setuptools.packages.find]
+include = ["converter*"]

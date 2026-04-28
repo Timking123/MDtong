@@ -1,0 +1,30 @@
+{
+    "api_key": "",
+    "default_template": "默认",
+    "output_dir": "",
+    "batch_output_dir": "C:/Users/12432/Desktop/FMappAdmin",
+    "last_save_dir": "",
+    "ai_model": "gpt-5.5",
+    "theme": "light",
+    "recent_files": [
+        "C:/Users/12432/Desktop/FMappAdmin/开发测试使用文档.md",
+        "C:/Users/12432/Desktop/FMappAdmin/发布治理与回滚演练.md"
+    ],
+    "window_geometry": "1100x700+34+55",
+    "export_history": [],
+    "doc_features": {
+        "toc_enabled": false,
+        "header_enabled": false,
+        "header_text": "",
+        "footer_enabled": true,
+        "page_number": true,
+        "logo_path": "",
+        "watermark_enabled": false,
+        "watermark_text": ""
+    },
+    "format_settings": {
+        "preset": "默认",
+        "custom_overrides": {},
+        "docx_template": ""
+    }
+}

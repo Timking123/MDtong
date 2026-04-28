@@ -1,0 +1,27 @@
+{
+    "api_key": "",
+    "default_template": "默认",
+    "output_dir": "",
+    "batch_output_dir": "",
+    "last_save_dir": "",
+    "ai_model": "gpt-5.5",
+    "theme": "light",
+    "recent_files": [],
+    "window_geometry": "1100x700",
+    "export_history": [],
+    "doc_features": {
+        "toc_enabled": false,
+        "header_enabled": false,
+        "header_text": "",
+        "footer_enabled": true,
+        "page_number": true,
+        "logo_path": "",
+        "watermark_enabled": false,
+        "watermark_text": ""
+    },
+    "format_settings": {
+        "preset": "默认",
+        "custom_overrides": {},
+        "docx_template": ""
+    }
+}
